@@ -1,16 +1,10 @@
-# This is a sample Python script.
+#print("Enter a todo: ")
+user_prompt = "Enter a todo: "
+todo1 = input(user_prompt)
+todo2 = input(user_prompt)
+todo3 = input(user_prompt)
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+todos = [todo1, todo2, todo3]
+print(type(todo1))
+print(type(todos))
+print(todos)
